@@ -1,0 +1,9 @@
+[package]
+name = "hot_reload_workflow"
+version = "0.1.0"
+authors = ["shockham <samuel.hockham@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+tokio = { version = "0.2", features = ["full"] }
+warp = "0.2"
